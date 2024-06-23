@@ -4,17 +4,18 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Career from './components/Career';
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-16">
+      
         <About />
         <Skills />
         <Projects />
         <Career />
-      </div>
+        <Footer />
     </div>
   );
 };
